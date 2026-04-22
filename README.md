@@ -1,16 +1,21 @@
-# React + Vite
+# Portfolio | Full Stack & Systems Engineering
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A techno-minimalist showcase of my journey as a developer. This portfolio highlights my work in full-stack mobile development, machine learning pipelines, and low-level graphics programming.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
+- **Frontend:** React.js, Vite, Tailwind CSS
+- **Design:** Techno-minimalist aesthetic with a focus on dark mode and performance.
+- **Deployment:** Vercel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Featured Projects
+- **DocNav:** Healthcare platform utilizing Flutter, Firebase, and Keras for diagnostic analysis.
+- **Gravity Engine:** A pure C++ & OpenGL physics simulator for N-body gravitational interactions.
+- **GDG Leadership:** Documentation and impact reports from leading Google Developer Groups on Campus.
 
-## React Compiler
+## 🏁 Getting Started
+1. Clone the repo: `git clone https://github.com/your-username/portfolio.git`
+2. Install dependencies: `npm install`
+3. Start dev server: `npm run dev`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+Built with ❤️ by Vinayak Tripathi
