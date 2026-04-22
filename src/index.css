@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─────────────────────────────────────────
+   DESIGN TOKENS
+───────────────────────────────────────── */
+:root {
+  --bg:        #080808;
+  --surface:   #0f0f0f;
+  --border:    #181818;
+  --border-2:  #242424;
+  --text-1:    #eeece6;
+  --text-2:    #888680;
+  --text-3:    #3a3a38;
+  --acid:      #d4ff1e;
+  --acid-dim:  rgba(212,255,30,0.08);
+  --acid-mid:  rgba(212,255,30,0.18);
+}
+
+/* ─────────────────────────────────────────
+   GLOBAL RESET
+───────────────────────────────────────── */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  cursor: none;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-1);
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--acid);
+  color: #080808;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: none;
+}
+
+button {
+  cursor: none;
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ─────────────────────────────────────────
+   TYPOGRAPHY SYSTEM
+───────────────────────────────────────── */
+
+/* Display — hero, section headings */
+.font-display,
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+}
+
+/* Body */
+.font-sans {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Code / data — labels, tags, terminal elements */
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
+}
+
+/* ─────────────────────────────────────────
+   SHARED COMPONENT TOKENS
+───────────────────────────────────────── */
+
+/* Section label (01 · about etc.) */
+.section-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
+  font-size: 10px;
+  color: var(--acid);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+/* ─────────────────────────────────────────
+   LENIS SMOOTH SCROLL
+───────────────────────────────────────── */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* ─────────────────────────────────────────
+   CUSTOM CURSOR
+───────────────────────────────────────── */
+@media (hover: none) {
+  #cursor-dot,
+  #cursor-ring {
+    display: none !important;
+  }
+}
