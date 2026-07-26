@@ -121,7 +121,7 @@ export default function Hero({ ready }) {
         ref={subtitleRef}
         className="opacity-0 font-sans font-[400] text-[17px] text-[var(--text-2)] max-w-[480px] mt-[1.75rem] leading-[1.75] mb-[3rem] md:mb-[3rem]"
       >
-        Building distributed systems that don't lie. Open to backend roles at Razorpay, Juspay & Zerodha — 2027.
+        Building distributed systems that don't lie. Open to backend roles at Product based companies— 2027.
       </p>
 
       <div className="flex flex-wrap items-center gap-[1rem]">
@@ -135,7 +135,7 @@ export default function Hero({ ready }) {
         </a>
         <span className="hidden md:inline text-[var(--text-3)]">·</span>
         <span className="font-mono text-[10px] tracking-[0.1em] text-[var(--text-3)] uppercase transition-colors duration-300 w-full md:w-auto">
-          LNCTS Bhopal  ·  2027 Batch  ·  CGPA 8.27
+          LNCTS Bhopal  ·  2027 Batch  ·  CGPA 8.36
         </span>
       </div>
 
