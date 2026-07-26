@@ -112,7 +112,7 @@ export default function About() {
       <div className="flex flex-col md:flex-row gap-[4rem] md:gap-[10%]">
         <div className="w-full md:w-[60%]">
           <p ref={paraRef1} className="font-sans font-[400] text-[17px] text-[var(--text-2)] max-w-[540px] leading-[1.85] mb-[1.85rem]">
-            3rd-year B.Tech CSE (AI & ML) at LNCTS, Bhopal — CGPA 8.27. I'm drawn to backend engineering where correctness is non-negotiable: concurrent writes, distributed state, money movement. The kind of code that can't afford to be wrong.
+            3rd-year B.Tech CSE (AI & ML) at LNCTS, Bhopal — CGPA 8.36. I'm drawn to backend engineering where correctness is non-negotiable: concurrent writes, distributed state, money movement. The kind of code that can't afford to be wrong.
           </p>
           <p ref={paraRef2} className="font-sans font-[400] text-[17px] text-[var(--text-2)] max-w-[540px] leading-[1.85] mb-[3rem]">
             Outside of systems, I run the GDG chapter at LNCTS — 3,000+ member community. Led Cloud Study Jam 2025 to Tier 2 recognition. Organized DevFest for 200+ attendees. I think about fintech infrastructure the way a civil engineer thinks about bridges — precision first, elegance second.
@@ -136,7 +136,7 @@ export default function About() {
         </div>
 
         <div className="w-full md:w-[40%] grid grid-cols-2 gap-x-[2rem] gap-y-[3rem] mt-[2rem] md:mt-0">
-          <Counter end={8.27} label="CGPA" />
+          <Counter end={8.36} label="CGPA" />
           <Counter end={3000} suffix="+" label="GDG members" />
           <Counter end={200} suffix="+" label={`DevFest\nattendees`} />
           <Counter end={2027} label={`Placement target\nbatch`} />
